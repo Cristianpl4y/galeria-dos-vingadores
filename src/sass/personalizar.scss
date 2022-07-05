@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(43, 43, 43); 
+}
+
+main {
+    background-color: rgb(43, 43, 43); 
+}
+
+.container .imgFixo {
+    width: 548px; 
+    height: 308px;
+}
+
+.container .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    color: white;
+    background-color: #212529;
+    background-clip: border-box;
+    border: 2px solid #212529;
+    border-radius: 0.25rem;
+    opacity: 0,5;
+}
+
+
+.jumbotron {
+    margin: 0;
+}
+
+.jumbotron .jumbotron-heading {
+    font-weight: 300;
+}
+
+
+footer {
+    background-color: #212529;
+    margin-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}

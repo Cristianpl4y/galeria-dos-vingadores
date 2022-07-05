@@ -1,0 +1,10 @@
+// Importando o Bootstrap
+@import "~bootstrap/scss/bootstrap"; // "~" Procurar dentro do node_modules
+
+// Importando as fontes
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome.scss";
+
+
+// Importando meu arquivo de personalização.
+@import "personalizar";
