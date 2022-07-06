@@ -40,6 +40,12 @@ main {
     }
 }
 
+@media only screen and (max-device-width: 380px) {
+    div[cp-botoes-herois] {
+      zoom: 60%;
+     }
+ }
+
 footer {
     background-color: #212529;
     margin-top: 2rem;
